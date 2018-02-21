@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#my-photo{
+   width: 25%
+} 
+#my-photo img{
+    border-radius: 5%;
+    width: 70%;
+    margin: auto;
+    border: 3px solid aliceblue;
+}
+.jumbotron{
+    background-image: url("http://www.peteryee.my/graphics/inspiringwell/main-bg.jpg");
+}
+#about h2{
+    color: white;
+}
+#about p{
+    color: white;
+    font-family: tahoma;
+}
+#social-contacts p{
+    color: darkgray;
+    font-family: tahoma;
+}
+.btn-fb{
+    background-color: darkblue;
+    color: white;
+    hover: none;
+}
+.btn{
+    margin: 5px;
+    border: none;
+}
+.btn-twitter{
+    background-color: deepskyblue;
+    color: white;
+}
+
+.btn-linkedin{
+    background-color: cornflowerblue;
+    color: white;
+}
+
+.btn-gmail{
+    background-color: tomato;
+    color: white;
+}
+
+#social-contacts{
+    border-left: 2px solid #cccccc;
+}
+
+/* The Portfolio button I want. Fix responsiveness*/
+..btn-group .btn{
+    margin: 5px;
+    width: 120px;
+}
+
+/*Portfolio styling*/
+
+.porfolio-title{
+    font-size: 36px;
+    color: #42B32F;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 70px;
+}
+
+.porfolio-title:after{
+    content: "";
+    position: absolute;
+    width: 7.5%;
+    left: 46.5%;
+    height: 45px;
+    border-bottom: 1px solid #5e5e5e;
+}
+.filter-button{
+    font-size: 18px;
+    border: 1px solid #42B32F;
+    border-radius: 5px;
+    text-align: center;
+    color: #42B32F;
+    margin-bottom: 30px;
+}
+
+.filter-button:hover{
+    font-size: 18px;
+    border: 1px solid #42B32F;
+    border-radius: 5px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #42B32F;
+}
+
+.btn-default:active .filter-button:active
+{
+    background-color: #42B32F;
+    color: white;
+}
+
+.port-image
+{
+    width: 100%;
+}
+
+.portfolio-content
+{
+    margin-bottom: 30px;
+}
+

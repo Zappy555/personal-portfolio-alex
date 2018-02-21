@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<!--
+This is my second project on the freecodecamp challenges. It is to build a 
+personal portfolio webpage.
+-->
+<html>
+    <head>
+        <title>My Portfolio</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="portfolio.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <script src="portfolio.js"></script>
+            
+    </head>
+        <body data-spy="scroll" data-target="#my-navbar">
+            <nav class="navbar navbar-inverse navbar-fixed-top " id="my-navbar">    
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav-collapse">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a href="" class="navbar-brand">ALEX <b><small><i class="fa fa-gg fa-sm"></i></small> POROBE</b></a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="nav-collapse">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="active"><a href="#about">About</a></li>
+                            <li><a href="#portfolio">Portfolio</a></li>
+                            <li><a href="#experience">Experience</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </div><!--end container-->
+            </nav><!--end nav-->
+            <hr>
+            
+            <div class="jumbotron">
+                <div class="container">
+                    <div class='row'>
+                        <!--<div class="col-md-4 col-sm-4 col-xs-12" id="my-photo">
+                            <img align="center" src="images/alex.jpg" class="img-responsive">
+                            
+                        </div>-->
+                        <div class="col-md-8 col-sm-8 col-xs-12" id="about">
+                            <h2>A Little About Me</h2>
+                            <p>
+                                You are looking at the portfolio of an award winning 
+                                full-stack web developer and mobile app expatriate 
+                                (in the making of course) Below are very few 
+                                of the many wonderful works that I have 
+                                done and will be doing. From front end 
+                                responsive design frameworks to back end 
+                                advance libraries such react js, 
+                                you can count on me.<br><br>
+
+                                Got a gig for me? Shoot me a message via my 
+                                contacts. You have my ears.
+                            </p>
+                            
+                        </div>
+                        <div class="col-lg-offset-1 col-md-3 col-sm-4 col-xs-12" id="social-contacts">
+                            <p>
+                                Follow the links below to know more about me 
+                                on your preferred social media platform.
+                            </p>
+                            <a href="http://www.facebook.com/alexkeby"><button type="button" class="btn btn-lg btn-primary btn-block btn-fb">Facebook</button></a>
+                            <a href="https://twitter.com/porobe"><button type="button" class="btn btn-lg btn-info btn-block btn-twitter">Twitter</button></a>
+                            <a href="https://www.linkedin.com/in/alex-porobe-b0b72228/"><button type="button" class="btn btn-lg btn-primary btn-block btn-linkedin">Linkedin</button></a>
+                            <a href="alexkeby@gmail.com"  id="gmail"><button type="button" class="btn btn-lg btn-danger btn-block btn-gmail">Gmail</button></a>   
+                        </div>
+                    </div>
+                </div>
+            </div><!--end jumbotron-->
+            
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="portfolio" id="portfolio">
+                            <h1 class="portfolio-title text-center"><b>Portfolio</b></h1>
+                        </div>
+                        <hr>
+                    </div>
+                    <hr>
+                
+                    <div class="btn-group btn-group-md text-center" align="center" >
+                        <button type="button" class="btn btn-default filter-button" data-filter="all">All</button>
+                        <button type="button" class="btn btn-default filter-button" data-filter="web">Web</button>
+                        <button type="button" class="btn btn-default filter-button" data-filter="apps">Apps</button>
+                        <button type="button" class="btn btn-default filter-button" data-filter="games">Games</button>
+                        <button type="button" class="btn btn-default filter-button" data-filter="others">Others</button>
+                    </div>
+                </div>
+                    <br/>
+                    
+                    <div class="portfolio-content col-lg-4 col-md-4 col-sm-4 col-xs-6 filter web">
+                        <a href="https://codepen.io/Zappy555/full/xYRjZY/"><img src="https://guardian.ng/wp-content/uploads/2016/08/ken-saro-wiwa-1024x614.jpg" class="img-responsive"></a>
+                        <h3>Tribute To Ken</h3>
+                        <p>Tribute page #freeCodeCamp</p>
+                    </div>
+
+                    <div class="portfolio-content col-lg-4 col-md-4 col-sm-4 col-xs-6 filter games">
+                        <img src="http://fakeimg.pl/350x200/" class="img-responsive">
+                        <h3>Lorem Ipsum</h3>
+                        <p>Litcum zetviet cret vuzlit kritas</p>
+                    </div>
+
+                    <div class="portfolio-content col-lg-4 col-md-4 col-sm-4 col-xs-6 filter web">
+                        <img src="http://fakeimg.pl/350x200/" class="img-responsive">
+                        <h3>Lorem Ipsum</h3>
+                        <p>Litcum zetviet cret vuzlit kritas</p>
+                    </div>
+
+                    <div class="portfolio-content col-lg-4 col-md-4 col-sm-4 col-xs-6 filter others">
+                        <img src="http://fakeimg.pl/350x200/" class="img-responsive">
+                        <h3>Lorem Ipsum</h3>
+                        <p>Litcum zetviet cret vuzlit kritas</p>
+                    </div>
+
+                    <div class="portfolio-content col-lg-4 col-md-4 col-sm-4 col-xs-6 filter others">
+                        <img src="http://fakeimg.pl/350x200/" class="img-responsive">
+                        <h3>Lorem Ipsum</h3>
+                        <p>Litcum zetviet cret vuzlit kritas</p>
+                    </div>
+
+                    <div class="portfolio-content col-lg-4 col-md-4 col-sm-4 col-xs-6 filter apps">
+                        <img src="http://fakeimg.pl/350x200/" class="img-responsive">
+                        <h3>Lorem Ipsum</h3>
+                        <p>Litcum zetviet cret vuzlit kritas</p>
+                    </div>
+            </div><!--End of Row for Portfolio Images-->
+            
+            <hr>
+                
+                
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="experience" id="experience">
+                            <h1 class="experience text-center"><b>Experience</b></h1>
+                        </div>
+                    </div>
+                </div>
+                    <hr>
+                    
+                <div class="row">    
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                        
+                            <div class="work-experience text-left">
+                                <p>
+                                    My experience has been a mix of freelancing, working at a startup
+                                    and working with the government.
+                                </p>
+                                    
+                                <p><b>Government</b>  - Computer Systems Analyst         - 2012-2018</p>
+                                <p><b>Startup</b>     - Multiple self startup attempts   - 2007-2017</p>
+                                <p><b>Freelancing</b> - With gigs for some great firms   - 2004-2007</p>
+                            </div>
+                        </div>     
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">  
+                            <p class="text-left">HTML</p>
+                            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">60%</div>
+                            <br>
+                            <br>
+                            
+                            <p class="text-left">CSS</p>
+                            <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">75%</div>
+                            <br>
+                            <br>
+                            
+                            <p class="text-left">Javascript</p>
+                            <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;">50%</div>
+                            <br>
+                            <br>
+                            
+                            <p class="text-left">Python</p>
+                            <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%;">30%</div>
+                       
+                        </div> 
+                </div>
+                      
+            </div>
+            <hr>
+            
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <div class="contact" id="contact">
+                            <h1 class="text-center">Contact</h1>
+                        </div>   
+                    </div>
+                    <hr>
+                </div>
+                <hr>
+                
+                <div class="row">
+                        <form>
+                            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                                <div class="form-group">
+                                    <label for="user-name" class="control-label">Name</label>
+                                    <input type="text" class="form-control" id="user-name" placeholder="Your Name Please">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="person-email" class="control-label">Email</label>
+                                    <input type="text" class="form-control" id="user-email" placeholder="Enter Your Email">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="person-name" class="control-label">Phone Number</label>
+                                    <input type="number" class="form-control" id="person-name" placeholder="Your Phone Number">
+                                </div>
+                            </div>
+                            
+                            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                                <div class="form-group">
+                                    <label for="person-name" class="control-label">Your Message</label>
+                                    <textarea name="user-message" id="user-message" class="form-control" cols="20" rows="8" placeholder="Please type your message"></textarea>
+                                </div>
+                                <button type="button" class="btn btn-info">Submit</button>
+                            </div>   
+                        </form>        
+                    </div>
+                    <hr>
+                <div class="row">
+                    <div class="copyright">
+                        <h4 class="text-center">Designed by <a href="https://www.freecodecamp.org/zappy555">Alex Porobe</a></h4>
+                        <p class="text-center">&copy; copyright @ 2018</p>
+                    </div>
+                </div>
+                </div>
+               
+        </body>
+</html>
